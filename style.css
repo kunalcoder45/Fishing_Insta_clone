@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a{
+  color: #0095F6;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: 350px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 3px;
+}
+.center .header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+
+.center .inputElement {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 37px 0px 37px;
+}
+
+.inputElement .inputText {
+  padding: 8px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.inputText:focus {
+  outline: gray;
+}
+
+.inputButton {
+  background-color: #0095F6;
+  color: white;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: .3rem;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border: none;
+  cursor: pointer;
+}/*
+.form_group {
+    width: 270px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 6px;
+}
+.form_group input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(250, 250, 250);
+    padding: 0 10px;
+    border-radius: .2rem;
+}
+.form_group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: gray;
+    font-size: .8rem;
+    transition: 200ms ease-in-out transform,
+                200ms ease-in-out font-size;
+}
+ .form_group input:valid ~ label {
+    transform: translateY(-100%);
+    font-size: .6rem;
+}
+.form_group input:valid {
+    padding: 1rem 10px 0;
+}
+*/
+.text {
+    width: 320px;
+    color: #8e8e8e;
+}
+.text p{
+  font-size: .7rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-bottom: 1.2rem;
+}
+.line {
+  display: flex;
+  margin-top: 6px;
+}
+.arrow {
+  background-color: gray;
+  height: 1px;
+  width: 140px;
+}
+.content {
+  color: gray;
+  margin-top: -7px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+
+button {
+
+    background-color: #0095F6;
+    width: 270px;
+    padding: .4rem;
+    margin-top: 12px;
+    border: none;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.social__icon {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.fab {
+  padding: 5px;
+  color: rgb(0, 55, 107);
+}
+.social__icon span {
+  color: rgb(0, 55, 107);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.forgetPassword {
+  margin: auto;
+  color: rgb(101, 178, 250);
+  margin-bottom: 25px;
+}
+.footer {
+  margin-top: 30px;
+  border: 1px solid rgb(195, 195, 195);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+.footer span {
+  color: rgb(0, 66, 128);
+  font-weight: 400;
+}
+
+.get_app {
+
+    text-align: center;
+}
+.get_app p {
+    margin: 1rem 0;
+}
+.get_app_images {
+    display: flex;
+    justify-content: center;
+}
+.get_app_images img {
+    width: 140px;
+    height: 40px;
+    object-fit: cover;
+    margin: 0 .2rem;
+}
+/* and it all done */
+/* please don't forget to like and subscribe.... */

